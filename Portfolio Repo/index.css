@@ -85,3 +85,7 @@ header nav a {
     text-decoration: none;
     background: #06b400;
 }
+img.side{
+	width: 10%;
+	display: inline
+}
