@@ -1,0 +1,11 @@
+header{
+	border-style: dotted;
+	border-color: aqua;
+	padding: 2%;
+}
+nav a{
+	display: flex;
+	flex-direction: row;
+	text-decoration:none;
+	justify-content: space-evenly;
+}
