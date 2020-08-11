@@ -25,7 +25,6 @@ a:hover{
 
  div.flexing{
 	margin: 1%;
-    border: 1px solid lightgray;
     padding: 2%;
 	display: flex;
 	justify-content: center;
@@ -39,13 +38,18 @@ div.flexing a{
 	text-decoration: none;
 	padding: 5%;
 	text-align: center;
-	margin-top: 6%;
+	margin: 2%;
 	color:white;
 	font-weight: bolder;
-	margin: auto;
-  	width: 50%;
-  	border: 3px solid green;
+  	border: 0.3rem solid green;
 
+}
+@media (max-width:400px){
+	div.flexing a{
+		background-color:red;
+		display: flex;
+		flex-wrap: row wrap;
+	}
 }
 footer h3{
 	display: inline-block;
@@ -88,4 +92,9 @@ header nav a {
 img.side{
 	width: 10%;
 	display: inline
+}
+@media (max-width:400px){
+	body{
+		background-color: #00b409;
+	}
 }
